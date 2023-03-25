@@ -1,0 +1,27 @@
+.input-div {
+  border-radius: 0.6vw;
+  border: 1px solid white;
+  background-color: rgb(24, 24, 27, 0.05);
+
+  transition: all 0.4s ease-in-out;
+}
+.input-div:hover {
+  border: 1px solid #0858f7;
+  background-color: rgb(255, 255, 255);
+}
+.Box-1 {
+  width: 45vw;
+  box-sizing: border-box;
+  padding: 6vw;
+}
+.eye-icon-background {
+  display: inline-flex;
+  padding: 0.3vw;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(8, 88, 247, 0);
+  transition: all 0.4s ease-in-out;
+}
+.eye-icon-background:hover {
+  background-color: rgb(8, 88, 247, 0.05);
+}
