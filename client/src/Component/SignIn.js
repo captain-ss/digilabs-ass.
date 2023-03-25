@@ -9,17 +9,22 @@ const SignIn = () => {
     <div className="backgroud-white inter-b">
       <img src={image1} alt="" />
       <div className="Box-1">
-        Welcome to <br />
+       <div className="inter-b">
+         Welcome to <br />
         Systempackage
+        </div>
         <form action="">
           <div className="input-div">
             <input type="text" placeholder="HelloUser" />
           </div>
+          <div>
+            
+          </div>
           <div className="input-div">
             <input type="password" />
-            <div className="eye-icon-background">
+            {/* <div className="eye-icon-background">
               <VisibilityIcon />
-            </div>
+            </div> */}
             <div className="eye-icon-background">
               <VisibilityOffIcon />
             </div>

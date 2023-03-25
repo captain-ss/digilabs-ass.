@@ -18,7 +18,7 @@
   font-weight: 500;
 }
 input{
-  padding: .6vw;
+  padding: 1.5vw .6vw;
   border: none;
   font-family: inter;
   font-weight: 500;
@@ -36,4 +36,5 @@ input::placeholder{
 } */
 input:focus{
   border: none;
+  outline: none;
 }
