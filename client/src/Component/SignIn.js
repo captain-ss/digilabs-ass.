@@ -26,13 +26,15 @@ const SignIn = () => {
   };
   return (
     <div className="backgroud-white inter-b wrapper-signin">
-      <div className="inter-b success"
-      style={{
-        
-        transition:"all .32s ease-in-out",
-        opacity:state2?"0":"1"
-      }}
-      >Success !</div>
+      <div
+        className="inter-b success"
+        style={{
+          transition: "all .32s ease-in-out",
+          opacity: state2 ? "0" : "1",
+        }}
+      >
+        Success !
+      </div>
       <img
         src={image1}
         className={state2 ? "" : "success-ani"}
@@ -66,7 +68,6 @@ const SignIn = () => {
               Systempackage
             </h1>
             <div className="input-div">
-            
               <input type="text" className="input-1" placeholder="HelloUser" />
               <div className="heads-design">@heads-design </div>
             </div>
@@ -184,10 +185,9 @@ const SignIn = () => {
       <p
         style={{
           padding: "3vw",
-          opacity:state2?"1":"0"
+          opacity: state2 ? "1" : "0",
         }}
-        className="inter-l mobile-member" 
-        
+        className="inter-l mobile-member"
       >
         Not member?
         <span

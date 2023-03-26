@@ -131,64 +131,71 @@ background-color:#0858f710 ;
   left: 46vw;
   z-index: 7;
 }
-
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   .Box-1{
-    width: 100vw;
-    padding: 1vw;
-  }
-  .phone-view-1{
-    width: 80vw;
-  }
-  .step-1{
-    width: 90vw;
-    padding: 0vw;
-    left: 5vw;
-  }
-  .input-div{
-    padding: 1.5vw;
-    border-radius: 1vw;
-  }
-  .heads-design{
-    padding: 2vw 4vw;
-    font-size: 3vw;
-  }
-  .input-1{
-    width: 60%;
-  }
-  .form-button{
-    padding: 2vw 0vw ;
-  }
-  .step-2{
-    width: 80vw;
-    left: 5vw;
-  }
-  .mobile-text{
-    font-size: 7vw;
-  }
-  .mobile-text-small{
-    font-size: 4vw;
-  }
-  .step-2-back{
-    width: 90vw;
-  }
-  .success{
-    top: 56vh;
-    left: 43vw;
-  }
-  .mobile-member{
-    position: absolute;
-    right: 5vw;
-    top: -3vw;
-  }
-}
-@media screen and (max-width: 900px) {
-  .Box-1{
+    position: relative;
+    top: 2vw;
     width: 100vw;
     padding: 7vw;
   }
   .phone-view-1{
     width: 60vw;
+    font-size: 1.3vw;
+  }
+  .step-1{
+    width: 50vw;
+    padding: 0vw;
+    left: 24vw;
+  }
+  .input-div{
+    padding: .7vw;
+    border-radius: 1.5vw;
+  }
+  .heads-design{
+    padding: 2vw ;
+    font-size: 1.7vw;
+  }
+  .input-1{
+    width: 60%;
+  }
+  .form-button{
+    padding: 2vw 0vw ;
+  }
+  .step-2{
+    width: 50vw;
+    left: 24vw;
+  }
+  .mobile-text{
+    font-size: 4vw;
+  }
+  .mobile-text-small{
+    font-size: 1.9vw;
+  }
+  .step-2-back{
+    width: 50vw;
+  }
+  .success{
+    top: 56vh;
+    left: 45vw;
+  }
+  .mobile-member{
+    position: absolute;
+    right: 5vw;
+    top: -3vw;
+  }
+  .eye-icon-background{
+    padding: 2vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Box-1{
+    width: 100vw;
+    padding: 1vw;
+
+  }
+  .phone-view-1{
+    width: 80vw;
   }
   .step-1{
     width: 90vw;
@@ -196,11 +203,12 @@ background-color:#0858f710 ;
     left: 5vw;
   }
   .input-div{
-    padding: 1.5vw;
-    border-radius: 1vw;
+    padding: 1vw;
+    border-radius: 2vw;
+    margin-bottom: 4vw;
   }
   .heads-design{
-    padding: 2vw 4vw;
+    padding: 2.5vw 4vw;
     font-size: 3vw;
   }
   .input-1{
@@ -231,5 +239,7 @@ background-color:#0858f710 ;
     right: 5vw;
     top: -3vw;
   }
-
+  .eye-icon-background{
+    padding: 3vw;
+  }
 }
