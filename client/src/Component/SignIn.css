@@ -131,6 +131,10 @@ background-color:#0858f710 ;
   left: 46vw;
   z-index: 7;
 }
+.carousel-div{
+  margin-top: 3vw;
+  margin-left: 4vw;
+}
 @media only screen and (max-width: 900px) {
   .Box-1{
     position: relative;
