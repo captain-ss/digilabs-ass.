@@ -1,7 +1,29 @@
 .Box-1 {
-  width: 40vw;
+  width: 50vw;
   box-sizing: border-box;
   padding: 6vw;
+  height: 70vh;
+}
+.step-1 {
+  position: absolute;
+  width: 25vw;
+
+  left: 15vw;
+  top: 10vw;
+  z-index: 5;
+  transition: all 0.32s ease-out;
+}
+.transition-step1 {
+  position: relative;
+  /* top: 10vw; */
+  transition: all 0.32s ease-out;
+}
+.step-2 {
+  position: absolute;
+  top: 10vw;
+  left: 15vw;
+  z-index: 3;
+  opacity: 0.5;
 }
 .Box-1 form {
   margin-top: 2vw;
@@ -53,4 +75,27 @@
   color: #0858f7;
   text-align: center;
   margin-top: 2vw;
+}
+.step-2-back {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.success-ani {
+  position: relative;
+  animation-name: success;
+  animation-duration: 2s;
+}
+@keyframes success{
+  0% {
+    bottom: 0vw;
+    left: 0vw;
+  }
+  /* 25%  {background-color: yellow;}
+  50%  {background-color: blue;} */
+  /* 100% {background-color: green;} */
+  100% {
+    bottom: -45vh;
+    left: 45vw;
+  }
 }

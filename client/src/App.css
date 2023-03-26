@@ -1,7 +1,10 @@
 .backgroud-white{
   background-color: white;
 }
-
+/* .wrapper-signin{
+  border-radius: 2.5vw;
+  
+} */
 .backgroud-lightgray{
   background-color: #F2F2F3;
 }
@@ -17,14 +20,14 @@
   font-family: inter;
   font-weight: 500;
 }
-input{
+.input-1{
   padding: 1.5vw .6vw;
   border: none;
   font-family: inter;
   font-weight: 500;
   background-color: transparent;
 }
-input::placeholder{
+.input-1::placeholder{
   font-family: inter;
   font-weight: 700;
   color: black;
@@ -34,7 +37,14 @@ input::placeholder{
 
   outline-color: #0858F7;
 } */
-input:focus{
+.input-1:focus{
   border: none;
   outline: none;
+}
+.otp-input{
+  padding: 1.5vw .6vw;
+  border: none;
+  font-family: inter;
+  font-weight: 500;
+  background-color: transparent;
 }

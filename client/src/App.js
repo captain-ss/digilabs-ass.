@@ -3,7 +3,7 @@ import './App.css';
 import SignIn from './Component/SignIn';
 function App() {
   return (
-    <div className="App backgroud-lightgray wrapper">
+    <div className="App backgroud-lightgray">
     <SignIn/>
     </div>
   );

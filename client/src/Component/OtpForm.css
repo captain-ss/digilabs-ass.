@@ -1,0 +1,15 @@
+input{
+    padding: 1.5vw ;
+    margin-left: .5vw;
+    border-radius: 1vw;
+    border: 1px solid #0858F7;
+    font-family: inter;
+    font-weight: 500;
+    background-color: transparent;
+}
+input:focus{
+    outline-color: #0858F7;
+
+        box-shadow: 0 0 5px #0858F7;
+      
+}
