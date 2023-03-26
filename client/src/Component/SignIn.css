@@ -1,15 +1,14 @@
 .Box-1 {
-    width: 40vw;
-    box-sizing: border-box;
-    padding: 6vw;
-
+  width: 40vw;
+  box-sizing: border-box;
+  padding: 6vw;
 }
-.Box-1 form{
-    margin-top: 2vw;
+.Box-1 form {
+  margin-top: 2vw;
 }
 .input-div {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   border-radius: 0.6vw;
   border: 1px solid white;
   background-color: rgb(24, 24, 27, 0.05);
@@ -32,4 +31,26 @@
 }
 .eye-icon-background:hover {
   background-color: rgb(8, 88, 247, 0.05);
+}
+
+.form-button {
+  background-color: #1763fd;
+  width: 100%;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw 0vw;
+  color: white;
+  margin-top: 2vw;
+  transition: all 0.32s ease-in-out;
+}
+
+.form-button:hover {
+  background-color: #0055ff;
+}
+.forget-pass {
+  color: #0858f7;
+  text-align: center;
+  margin-top: 2vw;
 }
