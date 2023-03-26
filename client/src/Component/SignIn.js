@@ -7,6 +7,7 @@ import EastIcon from "@mui/icons-material/East";
 import { useState, useEffect } from "react";
 import OtpForm from "./OtpForm";
 import "./SignIn.css";
+import Carousel from "./carosal/Carousel";
 // import Button from '@mui/joy/Button';
 // import Input from '@mui/joy/Input';
 
@@ -25,7 +26,14 @@ const SignIn = () => {
     }
   };
   return (
-    <div className="backgroud-white inter-b wrapper-signin">
+    <div className="backgroud-white inter-l "
+    style={{
+      display:"flex",
+
+    }}
+    >
+      <div>
+
       <div
         className="inter-b success"
         style={{
@@ -198,6 +206,15 @@ const SignIn = () => {
           Create account
         </span>
       </p>
+      </div>
+          <div className="carousel-div "
+          style={{
+            opacity:state2?"1":"0",
+            transition:"all .32s ease-in-out"
+          }}
+          >
+            <Carousel/>
+          </div>
     </div>
   );
 };

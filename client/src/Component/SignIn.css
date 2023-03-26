@@ -186,13 +186,16 @@ background-color:#0858f710 ;
   .eye-icon-background{
     padding: 2vw;
   }
+  .carousel-div{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .Box-1{
     width: 100vw;
     padding: 1vw;
-
+    
   }
   .phone-view-1{
     width: 80vw;
@@ -241,5 +244,8 @@ background-color:#0858f710 ;
   }
   .eye-icon-background{
     padding: 3vw;
+  }
+  .carousel-div{
+    display: none;
   }
 }
