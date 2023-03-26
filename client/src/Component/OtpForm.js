@@ -3,11 +3,12 @@ import OtpInput from "react-otp-input";
 import "./OtpForm.css";
 
 const OtpForm = ({ otp, setOtp }) => {
+  
   return (
 
     <OtpInput
-      
-      className="otp-input"
+     
+      containerStyle="otp-input"
       value={otp}
       onChange={setOtp}
       numInputs={6}

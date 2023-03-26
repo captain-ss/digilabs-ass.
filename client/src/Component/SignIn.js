@@ -7,6 +7,8 @@ import EastIcon from "@mui/icons-material/East";
 import { useState, useEffect } from "react";
 import OtpForm from "./OtpForm";
 import "./SignIn.css";
+// import Button from '@mui/joy/Button';
+// import Input from '@mui/joy/Input';
 
 const SignIn = () => {
   const [nextState, setNextState] = useState(true);
@@ -24,13 +26,11 @@ const SignIn = () => {
   };
   return (
     <div className="backgroud-white inter-b wrapper-signin">
-      <div className="inter-b"
+      <div className="inter-b success"
       style={{
-        color:"#0858F7",
-        position:"absolute",
-        top:"50vw",
-        left:"50vh",
-        zIndex:"7"
+        
+        transition:"all .32s ease-in-out",
+        opacity:state2?"0":"1"
       }}
       >Success !</div>
       <img
@@ -57,7 +57,7 @@ const SignIn = () => {
             }}
           >
             <h1
-              className="inter-b transition-step1"
+              className="inter-b transition-step1 phone-view-1 mobile-text"
               style={{
                 bottom: state1 ? "0vw" : "-3vw",
               }}
@@ -66,7 +66,9 @@ const SignIn = () => {
               Systempackage
             </h1>
             <div className="input-div">
+            
               <input type="text" className="input-1" placeholder="HelloUser" />
+              <div className="heads-design">@heads-design </div>
             </div>
             <div></div>
             <div className="input-div">
@@ -120,7 +122,7 @@ const SignIn = () => {
             }}
           >
             <h1
-              className="inter-b transition-step1"
+              className="inter-b transition-step1 mobile-text"
               style={{
                 bottom: state1 ? "0vw" : "-3vw",
               }}
@@ -128,7 +130,7 @@ const SignIn = () => {
               Enter the verification <br /> code to continue
             </h1>
             <p
-              className="inter-l transition-step1"
+              className="inter-l transition-step1 mobile-text-small"
               style={{
                 color: "#7A7A85",
                 bottom: state1 ? "0vw" : "-3vw",
@@ -149,7 +151,7 @@ const SignIn = () => {
             </p>
             <OtpForm otp={otp} setOtp={setOtp} />
             <div
-              className="step-2-back transition-step1"
+              className="step-2-back transition-step1 "
               style={{
                 color: "#7A7A85",
                 bottom: state1 ? "2vw" : "-1vw",
@@ -182,8 +184,10 @@ const SignIn = () => {
       <p
         style={{
           padding: "3vw",
+          opacity:state2?"1":"0"
         }}
-        className="inter-l"
+        className="inter-l mobile-member" 
+        
       >
         Not member?
         <span

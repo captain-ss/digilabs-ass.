@@ -1,4 +1,4 @@
-input{
+.otp-input input{
     padding: 1.5vw ;
     margin-left: .5vw;
     border-radius: 1vw;
@@ -7,9 +7,17 @@ input{
     font-weight: 500;
     background-color: transparent;
 }
-input:focus{
+.otp-input input:focus{
     outline-color: #0858F7;
 
         box-shadow: 0 0 5px #0858F7;
       
+}
+@media screen and (max-width: 930px) {
+    .otp-input input{
+        padding: 4vw;
+        border-radius: 2vw;
+        margin-left: 3vw;
+    }
+    
 }
